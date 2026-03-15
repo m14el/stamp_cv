@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# YOLO weights
+*.pt
+
+# Test output
+test_image.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Virtual Environment
+.venv/
+env/
+
+# Config files
+*config*.json
+
+# Dataset images (Large files)
+dataset/*.jpg
+!dataset/2013-02-22_06_05_00.jpg
+
