@@ -29,10 +29,36 @@ STAMP_test_task/
 
 ## Установка и запуск
 
-### Установка
+### Требования
+* Git
+* Python 3.8+
 
+### Пошаговая установка
+
+1. Склонируйте репозиторий на свой компьютер:
 ```bash
-# Установка зависимостей
+git clone https://github.com/m14el/stamp_cv.git
+cd stamp_cv
+```
+
+2. Создайте виртуальное окружение:
+```bash
+# Для Windows:
+python -m venv .venv
+# Для macOS/Linux:
+python3 -m venv .venv
+```
+
+3. Активируйте виртуальное окружение:
+```bash
+# Для Windows:
+.venv\Scripts\activate
+# Для macOS/Linux:
+source .venv/bin/activate
+```
+
+4. Установите зависимости:
+```bash
 pip install -r requirements.txt
 ```
 
